@@ -1,0 +1,20 @@
+/*
+Theme Name: Alternativ-TV
+Theme URI: https://github.com/rekri/Alternativ-TV
+
+Text Domain: alternativtv
+Description: Et WordPress tema for en infoskærm på Nørre Allé 86
+Version: 0.1
+
+Author: Rene Kristensen
+Author URI: https://github.com/rekri
+*/
+
+// *** Importing modules - Non-painting files ***
+@import "modules/colors";
+
+// *** Importing partials - Painting files ***
+@import "partials/reset";
+@import "partials/typography";
+@import "partials/header";
+@import "partials/pages";

@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/*
+Theme Name: Alternativ-TV
+Theme URI: https://github.com/rekri/Alternativ-TV
+
+Text Domain: alternativtv
+Description: Et WordPress tema for en infosk├ªrm p├Ñ N├©rre All├® 86
+Version: 0.1
+
+Author: Rene Kristensen
+Author URI: https://github.com/rekri
+*/
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: asap, 'Asap', sans-serif; }
+
+header {
+  width: 1080px;
+  height: 110px;
+  padding: 10px;
+  background-color: grey;
+  border-bottom: solid 10px lime;
+  position: relative; }
+  header .time {
+    display: inline-block;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100px; }
+    header .time p {
+      font-size: 40px;
+      font-weight: bold; }
+  header small {
+    margin-bottom: 15px; }
+
+.page-module {
+  width: 1080px;
+  height: 1810px;
+  background-color: black; }
+
+/*# sourceMappingURL=style.css.map */

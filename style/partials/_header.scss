@@ -1,0 +1,31 @@
+header {
+	width: 1080px;
+	height: 110px;
+
+	padding: 10px;
+
+	background-color: grey;
+	border-bottom: solid 10px $alt-green;
+
+	position: relative;
+
+	.time {
+		display: inline-block;
+		background-color: red;
+
+		position: absolute;
+		top: 0;
+		right: 0;
+
+		height: 100px;
+
+		p {
+			font-size: 40px;
+			font-weight: bold;
+		}
+	}
+
+	small {
+		margin-bottom: 15px;
+	}
+}
